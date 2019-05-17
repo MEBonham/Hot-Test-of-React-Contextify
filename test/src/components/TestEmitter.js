@@ -1,5 +1,5 @@
 import React from 'react';
-import { MenuProvider } from 'react-contextify';
+import { MenuProvider } from 'react-contexify';
 import TestMenu from './TestMenu';
 
 const TestEmitter = () => (

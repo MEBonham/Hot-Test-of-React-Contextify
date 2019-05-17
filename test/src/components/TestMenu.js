@@ -1,8 +1,9 @@
 import React from 'react';
-import { Menu, Item, Separator } from 'react-contextify';
+import { Menu, Item, Separator } from 'react-contexify';
+import 'react-contexify/dist/ReactContexify.min.css';
 
 const TestMenu = () => (
-    <Menu id="only">
+    <Menu id="onlyProvider">
         <Item>Edit</Item>
         <Item>Open in New Tab</Item>
         <Separator />
